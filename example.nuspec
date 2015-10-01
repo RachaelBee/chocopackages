@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>googlechrome</id>
+    <title>Google Chrome</title>
+    <version>45.4.1.2</version>
+    <authors>Google</authors>
+    <owners>Rachael Buttigieg</owners>
+    <summary>Google Chrome is popular and reliable web browser</summary>
+    <description>Chrome is a fast, simple, and secure web browser, built for the modern web. Chrome can be personalised using downloadable apps which extends its functionality. By signing in, you can pick up where you left off on any device. The possibilities are endless with Google Chrome.
+    </description>
+    <projectUrl>https://www.google.com/chrome/browser/desktop/index.html</projectUrl>
+    <tags>googlechrome</tags>
+    <copyright>Copyright (C) 2015 Google</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="ChocolateyInstall.ps1" target="tools"/>
+  </files>
+</package>
