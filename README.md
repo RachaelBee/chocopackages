@@ -1,2 +1,2 @@
 # chocopackages
-Code for Chocolatey Accelerator written by me
+Are you ready for all this Chocolatey goodness??
