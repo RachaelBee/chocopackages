@@ -4,7 +4,7 @@
 
 2. Fill in the tags in 'notepadplusplus.nuspec' using 'example.nuspec' as a guide but using Notepad++ details. 
 
-3. Run CMD as Admin
+3. Run the Command Prompt as Admin
 
 4. Navigate to the location of your nuspec file using "cd" etc
 
