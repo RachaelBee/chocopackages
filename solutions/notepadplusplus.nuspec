@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>notepadplusplus</id> #the package id
+    <title>Notepad++</title> #this is just a user friendly title
+    <version>6.8.3</version> #version of the software
+    <authors>Don Ho</authors> #software author
+    <owners>Rachael Buttigieg</owners> #your name
+    <summary>Notepad++ is a free source code editor and Notepad replacement which supports several languages.</summary> #small summary of software
+    <description>Based on the powerful editing component Scintilla, Notepad++ is written in C++ and uses pure Win32 API and STL which ensures a higher execution speed and smaller program size. By optimizing as many routines as possible without losing user friendliness, Notepad++ is trying to reduce the world carbon dioxide emissions. When using less CPU power, the PC can throttle down and reduce power consumption, resulting in a greener environment</description> # Longer explanation of software
+    <projectUrl>https://notepad-plus-plus.org/</projectUrl> #project URL
+    <tags>notepad++</tags> #keywords which reflect the software
+    <copyright>Copyright (C) 2015 Don Ho</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance> #should be false to stop need for user interaction
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="ChocolateyInstall.ps1" target="tools"/>
+  </files>
+</package>
