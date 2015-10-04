@@ -12,6 +12,7 @@
     <tags></tags>
     <copyright></copyright>
     <requireLicenseAcceptance></requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
   </metadata>
   <files>
     <file src="ChocolateyInstall.ps1" target="tools"/>
