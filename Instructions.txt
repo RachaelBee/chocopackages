@@ -1,8 +1,8 @@
                           -- Chocolatey Exercise --
 
-1. Open the 'notepadplusplus.nuspec', 'example.nuspec' and 'ChocolateyInstall.ps1' files using a text editor.
+1. Open the 'example.nuspec' file, then the 'notepadplusplus.nuspec' and 'ChocolateyInstall.ps1' files in the 'notepadplusplus' folder and  using a text editor.
 
-2. Fill in the tags in 'notepadplusplus.nuspec' using 'example.nuspec' as a guide but using Notepad++ details. 
+2. Fill in the blank tags in 'notepadplusplus.nuspec' using 'example.nuspec' as a guide but using Notepad++ details. 
 
 3. Run the Command Prompt as Admin
 
@@ -12,9 +12,9 @@
 
 6. Now open a browser and go to "https://www.myget.org/" and create an account, we will be hosting our packages on here.
 
-7. Once your account is set up and verified, create a feed and click 'Add a Package'.
+7. Once your account is set up and verified, create a feed and click 'Add a Package', and select your package.
 
-8. Return to Command Prompt or PowerShell (if you prefer) as long as you run as ADMIN, and run this code to install chocolatey
+8. Return to Command Prompt or PowerShell (if you prefer) as long as you run as ADMIN, and run this code to install    Chocolatey
     ---- For Command Prompt, run "@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 
     ---- For Powershell, run "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))"
