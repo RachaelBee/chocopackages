@@ -1,6 +1,13 @@
                           -- Chocolatey Exercise --
 
-1. Open the 'example.nuspec' file, then the 'notepadplusplus.nuspec' and 'ChocolateyInstall.ps1' files in the 'notepadplusplus' folder and  using a text editor.
+1. Open a Command Prompt or PowerShell (if you prefer) as long as you run as ADMIN, and run this code to install Chocolatey
+    ---- For Command Prompt, run "@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
+    ---- For Powershell, run "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))"
+
+    NOTE: If using PowerShell you may need to change your execution policy to allow you to run the scripts, use "Set-ExecutionPolicy RemoteSigned"
+    
+2. Open the 'example.nuspec' file, then the 'notepadplusplus.nuspec' and 'ChocolateyInstall.ps1' files in the 'notepadplusplus' folder and  using a text editor.
 
 2. Fill in the blank tags in 'notepadplusplus.nuspec' using 'example.nuspec' as a guide but using Notepad++ details. 
 
@@ -14,13 +21,6 @@
 
 7. Once your account is set up and verified, create a feed and click 'Add a Package', and select your package.
 
-8. Return to Command Prompt or PowerShell (if you prefer) as long as you run as ADMIN, and run this code to install    Chocolatey
-    ---- For Command Prompt, run "@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+8. Then use the chocolatey install command to install your new package, hosted on your MyGet feed: "cinst notepadplusplus -source https://www.myget.org/F/yourfeednamehere"
 
-    ---- For Powershell, run "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))"
-
-    NOTE: If using PowerShell you may need to change your execution policy to allow you to run the scripts, use "Set-ExecutionPolicy RemoteSigned"
-
-9. Then use the chocolatey install command to install your new package, hosted on your MyGet feed: "cinst notepadplusplus -source https://www.myget.org/F/yourfeednamehere"
-
-10. Watch the chocolatey magic before your eyes! Green messages are good, and type 'yes' to continue!
+9. Watch the chocolatey magic before your eyes! Green messages are good, and type 'yes' to continue!
